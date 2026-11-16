@@ -1,0 +1,27 @@
+services:
+  
+  php:
+    build:
+      context: .
+      dockerfile: dockerfile
+    image: php
+    container_name: php_ingresso
+    volumes:
+      - ./:/var/www/ingressos
+    networks:
+      - conexao
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx_ingresso
+    ports:
+      - "8080:80"
+    volumes:
+      - ./public:/var/www/ingressos/public
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+    networks:
+      - conexao
+
+networks:
+  conexao:
+    driver: bridge
