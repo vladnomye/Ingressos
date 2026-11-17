@@ -7,7 +7,7 @@ Tem como objetivo principal, desenvolvimento de capacidade pessoal de se arquite
 - Docker Compose
 
 ## Como Subir
-O PHP, PHPUnit e o Composer rodam dentro do conteiner docker, não há necessidade de instalação aparte.
+O PHP e o Composer rodam dentro do conteiner docker, não há necessidade de instalação aparte.
 O projeto está na porta **localhost:8080**, certifique-se de que não há nenhuma aplicação ocupando ela.
 
 ```bash
