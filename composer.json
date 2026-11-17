@@ -3,5 +3,13 @@
         "psr-4": {
             "ingressos\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^13.4"
     }
 }
