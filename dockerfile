@@ -1,8 +1,7 @@
 FROM php:8.4-fpm
 
-ARG dev
-
-ENV dev=$dev
+ARG ENVIRONMENT=dev
+ENV ENVIRONMENT=${ENVIRONMENT}
 
 #Bibiliotecas
 RUN apt-get update && apt-get install -y \ 
