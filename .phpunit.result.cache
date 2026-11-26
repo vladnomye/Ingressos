@@ -1,1 +1,1 @@
-{"version":2,"defects":{"tests\\ExampleTest::testFreteGratis":5},"times":{"tests\\ExampleTest::testFreteGratis":0}}
+{"version":2,"defects":{"tests\\StatusCodeTest::testCheckStatusCodeUnknowRoute":8},"times":{"tests\\StatusCodeTest::testCheckStatusCodeUnknowRoute":0,"tests\\StatusCodeTest::testCheckStatusCodeHome":0,"tests\\StatusCodeTest::testCheckStatusBodyRouteSaude":0}}
